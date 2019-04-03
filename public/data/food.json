@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Milk", "unit": "liter", "calories": 200 },
+  { "id": 2, "name": "Egg", "unit": "egg", "calories": 100 },
+  { "id": 3, "name": "Butter", "unit": "gram", "calories": 6 },
+  { "id": 4, "name": "Pizza", "unit": "gram", "calories": 200 },
+  { "id": 5, "name": "Beer", "unit": "pint", "calories": 160 },
+  { "id": 6, "name": "Coca Cola", "unit": "liter", "calories": 500 },
+  { "id": 7, "name": "Cereal", "unit": "gram", "calories": 4 },
+  { "id": 8, "name": "Steak", "unit": "gram", "calories": 5 },
+  { "id": 9, "name": "Chips", "unit": "gram", "calories": 7 },
+  { "id": 10, "name": "Water", "unit": "liter", "calories": 0 }
+]
