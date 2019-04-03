@@ -58,4 +58,13 @@ describe('AppStore', () => {
     expect(store.activeDay.mealList.length).toBe(0);
     expect(store.activeDay.calories).toBe(0);
   });
+
+  it('can export data as JSON and convert it back', () => {
+    const json = store.dataToJSON();
+
+    expect(typeof json).toBe('string');
+
+    const storeData = store.JSONtoData(json);
+    expect(storeData.dayList.length).toBe(2);
+  });
 });

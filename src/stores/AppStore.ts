@@ -6,7 +6,7 @@ import {
   IObservableArray
 } from 'mobx';
 
-import Day from '../models/Day';
+import Day, { IDay } from '../models/Day';
 import Meal from '../models/Meal';
 import IFood from '../models/Food';
 
@@ -57,5 +57,20 @@ export default class AppStore {
   @action
   fetchData() {
     this.dayList.push(new Day());
+  }
+
+  dataToJSON() {
+    return JSON.stringify({
+      dayList: this.dayList
+    });
+  }
+
+  JSONtoData(json: string) {
+    try {
+      const data = JSON.parse(json) as { dayList: IDay[] };
+      return { dayList: data.dayList.map(dayData => Day.create(dayData)) };
+    } catch (e) {
+      return { dayList: [] };
+    }
   }
 }

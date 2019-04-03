@@ -9,6 +9,10 @@ export interface IDay {
 export default class Day implements IDay {
   public readonly mealList: IObservableArray<Meal>;
 
+  public static create(data: IDay) {
+    return new Day(data.mealList.map(data => Meal.create(data)));
+  }
+
   constructor(mealList: Meal[] = []) {
     this.mealList = observable(mealList);
   }

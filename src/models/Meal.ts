@@ -16,6 +16,10 @@ export default class Meal implements IMeal {
   public type: MealType;
   public readonly foodList: IObservableArray<FoodItem>;
 
+  public static create(data: IMeal) {
+    return new Meal(data.type, data.foodList);
+  }
+
   constructor(type: MealType, foodList: FoodItem[] = []) {
     this.type = type;
     this.foodList = observable(foodList);
