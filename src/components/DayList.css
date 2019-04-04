@@ -1,0 +1,9 @@
+ul.day-list {
+  list-style: none;
+  padding: 20px 0px;
+  margin: 0px;
+}
+
+ul.day-list li:not(:last-of-type) {
+  margin-bottom: 10px;
+}

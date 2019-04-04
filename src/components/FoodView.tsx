@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { inject } from 'mobx-react';
 
 import AppStore from '../stores/AppStore';
+
+import DayListComponent from './DayList';
 
 export interface Props {
   appStore?: AppStore;
 }
 
-@inject('appStore')
 class FoodView extends Component<Props> {
   public componentDidMount() {
     const { appStore } = this.props;
@@ -18,7 +18,18 @@ class FoodView extends Component<Props> {
   }
 
   public render() {
-    return <div>Food view</div>;
+    const { appStore } = this.props;
+    const { dayList, closeActiveDay, addMeal } = appStore!;
+
+    return (
+      <div>
+        <DayListComponent
+          dayList={dayList}
+          onDayClose={closeActiveDay}
+          onMealAdd={addMeal}
+        />
+      </div>
+    );
   }
 }
 

@@ -7,27 +7,27 @@ export interface IDay {
 }
 
 export default class Day implements IDay {
-  public readonly mealList: IObservableArray<Meal>;
+  public readonly mealList: IObservableArray<Meal> = observable.array([]);
 
   public static create(data: IDay) {
     return new Day(data.mealList.map(data => Meal.create(data)));
   }
 
   constructor(mealList: Meal[] = []) {
-    this.mealList = observable(mealList);
+    this.mealList = observable.array(mealList);
   }
 
   @computed
-  get calories() {
+  public get calories() {
     return this.mealList.reduce((acc, n) => acc + n.calories, 0);
   }
 
   @computed
-  get lastMeal() {
+  public get lastMeal() {
     return this.mealList[this.mealList.length - 1];
   }
 
-  canAddMealType(type: MealType) {
+  public canAddMealType(type: MealType) {
     if (!this.lastMeal) {
       return true;
     }
@@ -38,7 +38,7 @@ export default class Day implements IDay {
     );
   }
 
-  addMeal(meal: Meal) {
+  public addMeal(meal: Meal) {
     if (this.canAddMealType(meal.type)) {
       this.mealList.push(meal);
     } else {

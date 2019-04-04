@@ -11,40 +11,37 @@ import Meal from '../models/Meal';
 import IFood from '../models/Food';
 
 export default class AppStore {
-  public readonly dayList: IObservableArray<Day>;
-  public readonly foodList: IObservableArray<IFood>;
+  public readonly dayList: IObservableArray<Day> = observable.array([]);
+  public readonly foodList: IObservableArray<IFood> = observable.array([]);
 
-  constructor() {
-    this.dayList = observable([]);
-    this.foodList = observable([]);
-  }
+  constructor() {}
 
   @computed
-  get activeDay() {
+  public get activeDay() {
     return this.dayList[this.dayList.length - 1];
   }
 
-  @action
-  addMeal(meal: Meal) {
+  @action.bound
+  public addMeal(meal: Meal) {
     if (this.activeDay) {
       this.activeDay.addMeal(meal);
     }
   }
 
-  @action
-  addFood(mealIndex: number, food: IFood, quantity: number) {
+  @action.bound
+  public addFood(mealIndex: number, food: IFood, quantity: number) {
     if (this.activeDay.mealList[mealIndex]) {
       this.activeDay.mealList[mealIndex].addFood(food, quantity);
     }
   }
 
-  @action
-  closeActiveDay() {
+  @action.bound
+  public closeActiveDay() {
     this.dayList.push(new Day());
   }
 
-  @action
-  fetchFood() {
+  @action.bound
+  public fetchFood() {
     fetch('/data/food.json')
       .then(response => response.json())
       .then((data: IFood[]) => {
@@ -54,18 +51,18 @@ export default class AppStore {
       });
   }
 
-  @action
-  fetchData() {
+  @action.bound
+  public fetchData() {
     this.dayList.push(new Day());
   }
 
-  dataToJSON() {
+  public dataToJSON() {
     return JSON.stringify({
       dayList: this.dayList
     });
   }
 
-  JSONtoData(json: string) {
+  public JSONtoData(json: string) {
     try {
       const data = JSON.parse(json) as { dayList: IDay[] };
       return { dayList: data.dayList.map(dayData => Day.create(dayData)) };

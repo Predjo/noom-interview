@@ -2,42 +2,42 @@ import { observable, computed, IObservableArray } from 'mobx';
 import MealType from './MealType';
 import IFood from './Food';
 
-interface FoodItem {
+interface IFoodItem {
   food: IFood;
   quantity: number;
 }
 
 export interface IMeal {
   type: MealType;
-  foodList: FoodItem[];
+  foodList: IFoodItem[];
 }
 
 export default class Meal implements IMeal {
   public type: MealType;
-  public readonly foodList: IObservableArray<FoodItem>;
+  public readonly foodList: IObservableArray<IFoodItem> = observable.array([]);
 
   public static create(data: IMeal) {
     return new Meal(data.type, data.foodList);
   }
 
-  constructor(type: MealType, foodList: FoodItem[] = []) {
+  constructor(type: MealType, foodList: IFoodItem[] = []) {
     this.type = type;
-    this.foodList = observable(foodList);
+    this.foodList = observable.array(foodList);
   }
 
   @computed
-  get calories() {
+  public get calories() {
     return this.foodList.reduce(
       (acc, n) => acc + n.food.calories * n.quantity,
       0
     );
   }
 
-  addFood(food: IFood, quantity: number) {
+  public addFood(food: IFood, quantity: number) {
     this.foodList.push({ food, quantity });
   }
 
-  hasFood(food: IFood): boolean {
+  public hasFood(food: IFood): boolean {
     return this.foodList.some(fd => fd.food.id === food.id);
   }
 }

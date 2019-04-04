@@ -1,0 +1,9 @@
+.day-card.card .card-subtitle {
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
+.day-card.card .btn-toolbar button:not(:first-of-type) {
+  margin-left: 0.5em;
+}
