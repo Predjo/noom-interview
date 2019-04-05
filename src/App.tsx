@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { configure } from 'mobx';
 
 import createStores from './stores/createStores';

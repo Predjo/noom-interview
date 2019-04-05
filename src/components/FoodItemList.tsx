@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 
 import FoodItemComponent, { Props as FoodItemComponentProps } from './FoodItem';
 
-import { IFoodItem } from '../models/Meal';
+import IFoodItem from '../models/IFoodItem';
 
 import './FoodItemList.css';
 

@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 
-import IFood from '../../models/Food';
+import IFood from '../../models/IFood';
 
 export interface FoodSearchTypeAheadProps {
   onSelect: (food: IFood) => void;

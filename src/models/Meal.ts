@@ -1,11 +1,7 @@
 import { observable, computed, IObservableArray } from 'mobx';
 import MealType from './MealType';
-import IFood from './Food';
-
-export interface IFoodItem {
-  food: IFood;
-  quantity: number;
-}
+import IFood from './IFood';
+import IFoodItem from './IFoodItem';
 
 export interface IMeal {
   type: MealType;

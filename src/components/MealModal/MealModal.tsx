@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import capitalize from 'lodash/capitalize';
 
-import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -9,8 +8,9 @@ import FoodItemList from '../FoodItemList';
 import MealTypeSelector from './MealTypeSelector';
 import FoodSearchTypeAhead from './FoodSearchTypeAhead';
 
-import IFood from '../../models/Food';
-import Meal, { IFoodItem } from '../../models/Meal';
+import IFood from '../../models/IFood';
+import Meal from '../../models/Meal';
+import IFoodItem from '../../models/IFoodItem';
 import MealType from '../../models/MealType';
 
 import './MealModal.css';

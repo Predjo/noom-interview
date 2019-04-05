@@ -2,7 +2,7 @@ import React from 'react';
 import { observer } from 'mobx-react-lite';
 import Form from 'react-bootstrap/Form';
 
-import IFood from '../models/Food';
+import IFood from '../models/IFood';
 
 import './FoodItem.css';
 

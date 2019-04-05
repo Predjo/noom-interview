@@ -1,14 +1,8 @@
-import {
-  observable,
-  computed,
-  action,
-  runInAction,
-  IObservableArray
-} from 'mobx';
+import { observable, computed, action, IObservableArray } from 'mobx';
 
 import Day, { IDay } from '../models/Day';
 import Meal from '../models/Meal';
-import IFood from '../models/Food';
+import IFood from '../models/IFood';
 
 const LOCAL_STORAGE_KEY = 'calorie-counter-data';
 
