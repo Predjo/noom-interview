@@ -12,19 +12,18 @@ import Container from 'react-bootstrap/Container';
 configure({ enforceActions: 'always' });
 const stores = createStores();
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar expand="lg" bg="info" variant="dark">
-          <Navbar.Brand>Calorie Counter App</Navbar.Brand>
-        </Navbar>
-        <Container>
-          <FoodView appStore={stores.appStore} />
-        </Container>
-      </div>
-    );
-  }
-}
+const App: React.FunctionComponent = () => {
+  return (
+    <>
+      <Navbar expand="lg" bg="info" variant="dark">
+        <Navbar.Brand>Calorie Counter App</Navbar.Brand>
+      </Navbar>
+
+      <Container>
+        <FoodView appStore={stores.appStore} />
+      </Container>
+    </>
+  );
+};
 
 export default App;

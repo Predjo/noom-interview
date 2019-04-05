@@ -1,5 +1,6 @@
 import AppStore from './AppStore';
 
 export default function() {
-  return { appStore: new AppStore() };
+  const useLocalStorage = true;
+  return { appStore: new AppStore(useLocalStorage) };
 }

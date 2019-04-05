@@ -27,6 +27,11 @@ export default class Day implements IDay {
     return this.mealList[this.mealList.length - 1];
   }
 
+  @computed
+  public get hasMeals() {
+    return this.mealList.length > 0;
+  }
+
   public canAddMealType(type: MealType) {
     if (!this.lastMeal) {
       return true;

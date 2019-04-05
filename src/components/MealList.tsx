@@ -11,18 +11,20 @@ export interface Props {
   mealList: Meal[];
 }
 
-const MealListComponent: React.SFC<Props> = observer(({ mealList }: Props) => {
-  return (
-    <ul className="meal-list">
-      {mealList.map((meal, index) => {
-        return (
-          <li key={index}>
-            <MealComponent meal={meal} index={index} />
-          </li>
-        );
-      })}
-    </ul>
-  );
-});
+const MealListComponent: React.FunctionComponent<Props> = observer(
+  ({ mealList }: Props) => {
+    return (
+      <ul className="meal-list">
+        {mealList.map((meal, index) => {
+          return (
+            <li key={index}>
+              <MealComponent meal={meal} index={index} />
+            </li>
+          );
+        })}
+      </ul>
+    );
+  }
+);
 
 export default MealListComponent;

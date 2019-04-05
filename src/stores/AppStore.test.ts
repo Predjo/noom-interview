@@ -17,8 +17,8 @@ describe('AppStore', () => {
 
   it('adds meal to the store', () => {
     const meal = new Meal(MealType.breakfast);
-    meal.addFood(foodBeer, 2);
-    meal.addFood(foodPizza, 1);
+    meal.addFoodItem(foodBeer, 2);
+    meal.addFoodItem(foodPizza, 1);
 
     store.addMeal(meal);
 
@@ -30,7 +30,7 @@ describe('AppStore', () => {
 
   it('adds meals of different type to the store', () => {
     const meal = new Meal(MealType.lunch);
-    meal.addFood(foodPizza, 2);
+    meal.addFoodItem(foodPizza, 2);
 
     expect(meal.calories).toBe(foodPizza.calories * 2);
 
@@ -44,7 +44,7 @@ describe('AppStore', () => {
 
   it('fails to add meal of previous type', () => {
     const meal = new Meal(MealType.breakfast);
-    meal.addFood(foodBeer, 1);
+    meal.addFoodItem(foodBeer, 1);
 
     expect(() => {
       store.addMeal(meal);
@@ -65,6 +65,6 @@ describe('AppStore', () => {
     expect(typeof json).toBe('string');
 
     const storeData = store.JSONtoData(json);
-    expect(storeData.dayList.length).toBe(2);
+    expect(storeData && storeData.dayList.length).toBe(2);
   });
 });

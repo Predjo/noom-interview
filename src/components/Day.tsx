@@ -4,13 +4,13 @@ import { observer } from 'mobx-react-lite';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
-import AddMealModal from './AddMealModal';
+
+import MealModal from './MealModal/MealModal';
 import MealListComponent from './MealList';
 
 import Day from '../models/Day';
-
 import Meal from '../models/Meal';
-import MealType from '../models/MealType';
+import { MealTypeOrder } from '../models/MealType';
 
 import './Day.css';
 
@@ -22,7 +22,7 @@ export interface Props {
   onMealAdd: (meal: Meal) => void;
 }
 
-const DayComponent: React.SFC<Props> = observer(
+const DayComponent: React.FunctionComponent<Props> = observer(
   ({ index, day, closed, onDayClose, onMealAdd }: Props) => {
     const { mealList, calories } = day;
 
@@ -36,9 +36,8 @@ const DayComponent: React.SFC<Props> = observer(
             {mealList.length} meals {calories} calories
           </Card.Subtitle>
 
-          <MealListComponent mealList={mealList} />
+          {day.hasMeals ? <MealListComponent mealList={mealList} /> : null}
 
-          <Card.Text />
           {!closed ? (
             <ButtonToolbar>
               <Button variant="info" onClick={() => setShowModal(true)}>
@@ -48,18 +47,16 @@ const DayComponent: React.SFC<Props> = observer(
               <Button variant="warning" onClick={onDayClose}>
                 Close day
               </Button>
-
-              <Button
-                variant="warning"
-                onClick={() => onMealAdd(new Meal(MealType.lunch))}
-              >
-                Test
-              </Button>
             </ButtonToolbar>
           ) : null}
         </Card.Body>
 
-        <AddMealModal show={showModal} onHide={() => setShowModal(false)} />
+        <MealModal
+          show={showModal}
+          onSave={(meal: Meal) => onMealAdd(meal)}
+          onHide={() => setShowModal(false)}
+          mealTypeList={MealTypeOrder.filter(type => day.canAddMealType(type))}
+        />
       </Card>
     );
   }

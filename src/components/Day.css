@@ -4,6 +4,10 @@
   line-height: 1.2;
 }
 
+.day-card.card .btn-toolbar {
+  margin-top: 0.5em;
+}
+
 .day-card.card .btn-toolbar button:not(:first-of-type) {
   margin-left: 0.5em;
 }

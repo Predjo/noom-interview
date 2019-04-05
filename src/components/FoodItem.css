@@ -1,0 +1,5 @@
+.food-item input {
+  max-width: 65px;
+  display: inline-block;
+  margin-right: 5px;
+}

@@ -2,7 +2,7 @@ import { observable, computed, IObservableArray } from 'mobx';
 import MealType from './MealType';
 import IFood from './Food';
 
-interface IFoodItem {
+export interface IFoodItem {
   food: IFood;
   quantity: number;
 }
@@ -33,11 +33,16 @@ export default class Meal implements IMeal {
     );
   }
 
-  public addFood(food: IFood, quantity: number) {
+  @computed
+  public get hasFood() {
+    return this.foodList.length > 0;
+  }
+
+  public addFoodItem(food: IFood, quantity: number) {
     this.foodList.push({ food, quantity });
   }
 
-  public hasFood(food: IFood): boolean {
+  public hasFoodItem(food: IFood): boolean {
     return this.foodList.some(fd => fd.food.id === food.id);
   }
 }

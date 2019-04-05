@@ -1,0 +1,12 @@
+.add-meal-modal .modal-controls > div {
+  display: inline-block;
+}
+
+.add-meal-modal .modal-controls > div.dropdown button {
+  width: 110px;
+  margin-right: 10px;
+}
+
+.add-meal-modal .modal-controls > div.rbt {
+  width: calc(100% - 120px);
+}

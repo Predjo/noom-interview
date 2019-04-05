@@ -12,17 +12,17 @@ export interface Props
   dayList: Day[];
 }
 
-const DayListComponent: React.SFC<Props> = observer(
+const DayListComponent: React.FunctionComponent<Props> = observer(
   ({ dayList, onDayClose, onMealAdd }: Props) => {
     return (
       <ul className="day-list">
-        {dayList.map((day, index) => {
+        {dayList.reverse().map((day, index) => {
           return (
             <li key={index}>
               <DayComponent
                 day={day}
-                index={index}
-                closed={index !== dayList.length - 1}
+                index={dayList.length - 1 - index}
+                closed={index !== 0}
                 onDayClose={onDayClose}
                 onMealAdd={onMealAdd}
               />
