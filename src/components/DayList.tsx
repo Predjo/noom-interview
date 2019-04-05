@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { observer } from 'mobx-react-lite';
 
 import DayComponent, { Props as DayComponentProps } from './Day';
@@ -14,9 +14,13 @@ export interface Props
 
 const DayListComponent: React.FunctionComponent<Props> = observer(
   ({ dayList, onDayClose, onMealAdd }: Props) => {
+    const memoizedDayList = useMemo(() => dayList.slice().reverse(), [
+      dayList.slice()
+    ]);
+
     return (
       <ul className="day-list">
-        {dayList.reverse().map((day, index) => {
+        {memoizedDayList.map((day, index) => {
           return (
             <li key={index}>
               <DayComponent
