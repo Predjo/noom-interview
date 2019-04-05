@@ -47,6 +47,7 @@ const FoodSearchTypeAhead: React.FunctionComponent<FoodSearchTypeAheadProps> = (
       allowNew={false}
       highlightOnlyResult={true}
       onChange={onChange}
+      minLength={1}
     />
   );
 };
