@@ -1,4 +1,3 @@
-import { IDay } from '../models/Day';
 import { IAppStoreData } from '../stores/AppStore';
 
 export function dataToJSON(data: IAppStoreData) {
@@ -7,7 +6,7 @@ export function dataToJSON(data: IAppStoreData) {
 
 export function JSONtoData(json: string) {
   try {
-    const data = JSON.parse(json) as { dayList: IDay[] };
+    const data = JSON.parse(json) as IAppStoreData;
     return data;
   } catch (e) {
     return undefined;

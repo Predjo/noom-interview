@@ -47,4 +47,6 @@ const FoodItemList: React.FunctionComponent<Props> = observer(
   }
 );
 
+FoodItemList.displayName = 'FoodItemList';
+
 export default FoodItemList;

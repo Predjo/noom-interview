@@ -38,4 +38,6 @@ const DayListComponent: React.FunctionComponent<Props> = observer(
   }
 );
 
+DayListComponent.displayName = 'DayListComponent';
+
 export default DayListComponent;
