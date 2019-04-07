@@ -68,7 +68,7 @@ const MealModal: React.FunctionComponent<Props> = (props: Props) => {
   return (
     <Modal show={show} onHide={onHide} className="add-meal-modal">
       <Modal.Header closeButton>
-        <Modal.Title>Add {capitalize(selectedMealType)}</Modal.Title>
+        <Modal.Title>Add {capitalize(activeMealType)}</Modal.Title>
       </Modal.Header>
 
       <Modal.Body>

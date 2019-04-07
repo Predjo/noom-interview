@@ -10,7 +10,6 @@
     "@types/react-bootstrap": "^0.32.17",
     "@types/react-bootstrap-typeahead": "^3.4.4",
     "@types/react-dom": "16.8.3",
-    "@types/react-modal": "^3.8.1",
     "bootstrap": "^4.3.1",
     "lodash": "^4.17.11",
     "mobx": "^5.9.4",
@@ -43,6 +42,8 @@
     "enzyme-to-json": "^3.3.5"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }
