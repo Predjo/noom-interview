@@ -62,4 +62,6 @@ const DayComponent: React.FunctionComponent<Props> = observer(
   }
 );
 
+DayComponent.displayName = 'DayComponent';
+
 export default DayComponent;

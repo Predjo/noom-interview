@@ -2,7 +2,7 @@ import React from 'react';
 
 import AppStore from '../stores/AppStore';
 
-import DayListComponent from './DayList';
+import DayListComponent from '../components/DayList';
 
 export interface Props {
   appStore: AppStore;

@@ -3,7 +3,7 @@ import { configure } from 'mobx';
 
 import createStores from './stores/createStores';
 
-import FoodView from './components/FoodView';
+import FoodView from './pages/FoodView';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';

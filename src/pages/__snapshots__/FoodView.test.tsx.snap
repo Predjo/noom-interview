@@ -1,0 +1,3576 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FoodView should render correctly 1`] = `
+<FoodView
+  appStore={
+    AppStore {
+      "dayList": Array [
+        Day {
+          "mealList": Array [
+            Meal {
+              "foodList": Array [
+                Object {
+                  "food": Object {
+                    "calories": 160,
+                    "id": 5,
+                    "name": "Beer",
+                    "unit": "pint",
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@3[..].food.keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@3[..].food",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "calories": 160,
+                        "id": 5,
+                        "name": "Beer",
+                        "unit": "pint",
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "id" => 5,
+                        "name" => "Beer",
+                        "unit" => "pint",
+                        "calories" => 160,
+                      },
+                    },
+                  },
+                  "quantity": 2,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "ObservableArray@3[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "ObservableArray@3[..]",
+                    "pendingKeys": Map {
+                      "cheerio" => false,
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "food": Object {
+                        "calories": 160,
+                        "id": 5,
+                        "name": "Beer",
+                        "unit": "pint",
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].food.keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..].food",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "calories": 160,
+                            "id": 5,
+                            "name": "Beer",
+                            "unit": "pint",
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "id" => 5,
+                            "name" => "Beer",
+                            "unit" => "pint",
+                            "calories" => 160,
+                          },
+                        },
+                      },
+                      "quantity": 2,
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "food" => Object {
+                        "calories": 160,
+                        "id": 5,
+                        "name": "Beer",
+                        "unit": "pint",
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].food.keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..].food",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "calories": 160,
+                            "id": 5,
+                            "name": "Beer",
+                            "unit": "pint",
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "id" => 5,
+                            "name" => "Beer",
+                            "unit" => "pint",
+                            "calories" => 160,
+                          },
+                        },
+                      },
+                      "quantity" => 2,
+                    },
+                  },
+                },
+                Object {
+                  "food": Object {
+                    "calories": 200,
+                    "id": 4,
+                    "name": "Pizza",
+                    "unit": "gram",
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@3[..].food.keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@3[..].food",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "calories": 200,
+                        "id": 4,
+                        "name": "Pizza",
+                        "unit": "gram",
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "id" => 4,
+                        "name" => "Pizza",
+                        "unit" => "gram",
+                        "calories" => 200,
+                      },
+                    },
+                  },
+                  "quantity": 1,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "ObservableArray@3[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "ObservableArray@3[..]",
+                    "pendingKeys": Map {
+                      "cheerio" => false,
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "food": Object {
+                        "calories": 200,
+                        "id": 4,
+                        "name": "Pizza",
+                        "unit": "gram",
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].food.keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..].food",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "calories": 200,
+                            "id": 4,
+                            "name": "Pizza",
+                            "unit": "gram",
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "id" => 4,
+                            "name" => "Pizza",
+                            "unit" => "gram",
+                            "calories" => 200,
+                          },
+                        },
+                      },
+                      "quantity": 1,
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "food" => Object {
+                        "calories": 200,
+                        "id": 4,
+                        "name": "Pizza",
+                        "unit": "gram",
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].food.keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..].food",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "calories": 200,
+                            "id": 4,
+                            "name": "Pizza",
+                            "unit": "gram",
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "id" => 4,
+                            "name" => "Pizza",
+                            "unit" => "gram",
+                            "calories" => 200,
+                          },
+                        },
+                      },
+                      "quantity" => 1,
+                    },
+                  },
+                },
+              ],
+              "type": "lunch",
+              Symbol(mobx did run lazy initializers): true,
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": -1,
+                  "name": "Meal@6.keys",
+                  "observers": Set {},
+                },
+                "name": "Meal@6",
+                "target": [Circular],
+                "values": Map {
+                  "calories" => 520,
+                  "hasFood" => true,
+                },
+              },
+            },
+          ],
+          Symbol(mobx did run lazy initializers): true,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": -1,
+              "name": "Day@9.keys",
+              "observers": Set {},
+            },
+            "name": "Day@9",
+            "target": [Circular],
+            "values": Map {
+              "calories" => 520,
+              "lastMeal" => Meal {
+                "foodList": Array [
+                  Object {
+                    "food": Object {
+                      "calories": 160,
+                      "id": 5,
+                      "name": "Beer",
+                      "unit": "pint",
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@3[..].food.keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@3[..].food",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "calories": 160,
+                          "id": 5,
+                          "name": "Beer",
+                          "unit": "pint",
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "id" => 5,
+                          "name" => "Beer",
+                          "unit" => "pint",
+                          "calories" => 160,
+                        },
+                      },
+                    },
+                    "quantity": 2,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@3[..].keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@3[..]",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "food": Object {
+                          "calories": 160,
+                          "id": 5,
+                          "name": "Beer",
+                          "unit": "pint",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 160,
+                              "id": 5,
+                              "name": "Beer",
+                              "unit": "pint",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 5,
+                              "name" => "Beer",
+                              "unit" => "pint",
+                              "calories" => 160,
+                            },
+                          },
+                        },
+                        "quantity": 2,
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "food" => Object {
+                          "calories": 160,
+                          "id": 5,
+                          "name": "Beer",
+                          "unit": "pint",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 160,
+                              "id": 5,
+                              "name": "Beer",
+                              "unit": "pint",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 5,
+                              "name" => "Beer",
+                              "unit" => "pint",
+                              "calories" => 160,
+                            },
+                          },
+                        },
+                        "quantity" => 2,
+                      },
+                    },
+                  },
+                  Object {
+                    "food": Object {
+                      "calories": 200,
+                      "id": 4,
+                      "name": "Pizza",
+                      "unit": "gram",
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@3[..].food.keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@3[..].food",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "calories": 200,
+                          "id": 4,
+                          "name": "Pizza",
+                          "unit": "gram",
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "id" => 4,
+                          "name" => "Pizza",
+                          "unit" => "gram",
+                          "calories" => 200,
+                        },
+                      },
+                    },
+                    "quantity": 1,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@3[..].keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@3[..]",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "food": Object {
+                          "calories": 200,
+                          "id": 4,
+                          "name": "Pizza",
+                          "unit": "gram",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 200,
+                              "id": 4,
+                              "name": "Pizza",
+                              "unit": "gram",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 4,
+                              "name" => "Pizza",
+                              "unit" => "gram",
+                              "calories" => 200,
+                            },
+                          },
+                        },
+                        "quantity": 1,
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "food" => Object {
+                          "calories": 200,
+                          "id": 4,
+                          "name": "Pizza",
+                          "unit": "gram",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 200,
+                              "id": 4,
+                              "name": "Pizza",
+                              "unit": "gram",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 4,
+                              "name" => "Pizza",
+                              "unit" => "gram",
+                              "calories" => 200,
+                            },
+                          },
+                        },
+                        "quantity" => 1,
+                      },
+                    },
+                  },
+                ],
+                "type": "lunch",
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": -1,
+                    "name": "Meal@6.keys",
+                    "observers": Set {},
+                  },
+                  "name": "Meal@6",
+                  "target": [Circular],
+                  "values": Map {
+                    "calories" => 520,
+                    "hasFood" => true,
+                  },
+                },
+              },
+              "hasMeals" => true,
+            },
+          },
+        },
+      ],
+    }
+  }
+>
+  <div>
+    <wrappedComponent
+      dayList={
+        Array [
+          Day {
+            "mealList": Array [
+              Meal {
+                "foodList": Array [
+                  Object {
+                    "food": Object {
+                      "calories": 160,
+                      "id": 5,
+                      "name": "Beer",
+                      "unit": "pint",
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@3[..].food.keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@3[..].food",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "calories": 160,
+                          "id": 5,
+                          "name": "Beer",
+                          "unit": "pint",
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "id" => 5,
+                          "name" => "Beer",
+                          "unit" => "pint",
+                          "calories" => 160,
+                        },
+                      },
+                    },
+                    "quantity": 2,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@3[..].keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@3[..]",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "food": Object {
+                          "calories": 160,
+                          "id": 5,
+                          "name": "Beer",
+                          "unit": "pint",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 160,
+                              "id": 5,
+                              "name": "Beer",
+                              "unit": "pint",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 5,
+                              "name" => "Beer",
+                              "unit" => "pint",
+                              "calories" => 160,
+                            },
+                          },
+                        },
+                        "quantity": 2,
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "food" => Object {
+                          "calories": 160,
+                          "id": 5,
+                          "name": "Beer",
+                          "unit": "pint",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 160,
+                              "id": 5,
+                              "name": "Beer",
+                              "unit": "pint",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 5,
+                              "name" => "Beer",
+                              "unit" => "pint",
+                              "calories" => 160,
+                            },
+                          },
+                        },
+                        "quantity" => 2,
+                      },
+                    },
+                  },
+                  Object {
+                    "food": Object {
+                      "calories": 200,
+                      "id": 4,
+                      "name": "Pizza",
+                      "unit": "gram",
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@3[..].food.keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@3[..].food",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "calories": 200,
+                          "id": 4,
+                          "name": "Pizza",
+                          "unit": "gram",
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "id" => 4,
+                          "name" => "Pizza",
+                          "unit" => "gram",
+                          "calories" => 200,
+                        },
+                      },
+                    },
+                    "quantity": 1,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@3[..].keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@3[..]",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "food": Object {
+                          "calories": 200,
+                          "id": 4,
+                          "name": "Pizza",
+                          "unit": "gram",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 200,
+                              "id": 4,
+                              "name": "Pizza",
+                              "unit": "gram",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 4,
+                              "name" => "Pizza",
+                              "unit" => "gram",
+                              "calories" => 200,
+                            },
+                          },
+                        },
+                        "quantity": 1,
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "food" => Object {
+                          "calories": 200,
+                          "id": 4,
+                          "name": "Pizza",
+                          "unit": "gram",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 200,
+                              "id": 4,
+                              "name": "Pizza",
+                              "unit": "gram",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 4,
+                              "name" => "Pizza",
+                              "unit" => "gram",
+                              "calories" => 200,
+                            },
+                          },
+                        },
+                        "quantity" => 1,
+                      },
+                    },
+                  },
+                ],
+                "type": "lunch",
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": -1,
+                    "name": "Meal@6.keys",
+                    "observers": Set {},
+                  },
+                  "name": "Meal@6",
+                  "target": [Circular],
+                  "values": Map {
+                    "calories" => 520,
+                    "hasFood" => true,
+                  },
+                },
+              },
+            ],
+            Symbol(mobx did run lazy initializers): true,
+            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+              "defaultEnhancer": [Function],
+              "keysAtom": Atom$$1 {
+                "diffValue": 0,
+                "isBeingObserved": false,
+                "isPendingUnobservation": false,
+                "lastAccessedBy": 0,
+                "lowestObserverState": -1,
+                "name": "Day@9.keys",
+                "observers": Set {},
+              },
+              "name": "Day@9",
+              "target": [Circular],
+              "values": Map {
+                "calories" => 520,
+                "lastMeal" => Meal {
+                  "foodList": Array [
+                    Object {
+                      "food": Object {
+                        "calories": 160,
+                        "id": 5,
+                        "name": "Beer",
+                        "unit": "pint",
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].food.keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..].food",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "calories": 160,
+                            "id": 5,
+                            "name": "Beer",
+                            "unit": "pint",
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "id" => 5,
+                            "name" => "Beer",
+                            "unit" => "pint",
+                            "calories" => 160,
+                          },
+                        },
+                      },
+                      "quantity": 2,
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@3[..].keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@3[..]",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "food": Object {
+                            "calories": 160,
+                            "id": 5,
+                            "name": "Beer",
+                            "unit": "pint",
+                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                              "defaultEnhancer": [Function],
+                              "keysAtom": Atom$$1 {
+                                "diffValue": 0,
+                                "isBeingObserved": false,
+                                "isPendingUnobservation": false,
+                                "lastAccessedBy": 0,
+                                "lowestObserverState": 2,
+                                "name": "ObservableArray@3[..].food.keys",
+                                "observers": Set {},
+                              },
+                              "name": "ObservableArray@3[..].food",
+                              "pendingKeys": Map {
+                                "cheerio" => false,
+                                "$$typeof" => false,
+                                "nodeType" => false,
+                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                "_isMockFunction" => false,
+                                "toJSON" => false,
+                              },
+                              "proxy": [Circular],
+                              "target": Object {
+                                "calories": 160,
+                                "id": 5,
+                                "name": "Beer",
+                                "unit": "pint",
+                                Symbol(mobx administration): [Circular],
+                              },
+                              "values": Map {
+                                "id" => 5,
+                                "name" => "Beer",
+                                "unit" => "pint",
+                                "calories" => 160,
+                              },
+                            },
+                          },
+                          "quantity": 2,
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "food" => Object {
+                            "calories": 160,
+                            "id": 5,
+                            "name": "Beer",
+                            "unit": "pint",
+                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                              "defaultEnhancer": [Function],
+                              "keysAtom": Atom$$1 {
+                                "diffValue": 0,
+                                "isBeingObserved": false,
+                                "isPendingUnobservation": false,
+                                "lastAccessedBy": 0,
+                                "lowestObserverState": 2,
+                                "name": "ObservableArray@3[..].food.keys",
+                                "observers": Set {},
+                              },
+                              "name": "ObservableArray@3[..].food",
+                              "pendingKeys": Map {
+                                "cheerio" => false,
+                                "$$typeof" => false,
+                                "nodeType" => false,
+                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                "_isMockFunction" => false,
+                                "toJSON" => false,
+                              },
+                              "proxy": [Circular],
+                              "target": Object {
+                                "calories": 160,
+                                "id": 5,
+                                "name": "Beer",
+                                "unit": "pint",
+                                Symbol(mobx administration): [Circular],
+                              },
+                              "values": Map {
+                                "id" => 5,
+                                "name" => "Beer",
+                                "unit" => "pint",
+                                "calories" => 160,
+                              },
+                            },
+                          },
+                          "quantity" => 2,
+                        },
+                      },
+                    },
+                    Object {
+                      "food": Object {
+                        "calories": 200,
+                        "id": 4,
+                        "name": "Pizza",
+                        "unit": "gram",
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].food.keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..].food",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "calories": 200,
+                            "id": 4,
+                            "name": "Pizza",
+                            "unit": "gram",
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "id" => 4,
+                            "name" => "Pizza",
+                            "unit" => "gram",
+                            "calories" => 200,
+                          },
+                        },
+                      },
+                      "quantity": 1,
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@3[..].keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@3[..]",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "food": Object {
+                            "calories": 200,
+                            "id": 4,
+                            "name": "Pizza",
+                            "unit": "gram",
+                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                              "defaultEnhancer": [Function],
+                              "keysAtom": Atom$$1 {
+                                "diffValue": 0,
+                                "isBeingObserved": false,
+                                "isPendingUnobservation": false,
+                                "lastAccessedBy": 0,
+                                "lowestObserverState": 2,
+                                "name": "ObservableArray@3[..].food.keys",
+                                "observers": Set {},
+                              },
+                              "name": "ObservableArray@3[..].food",
+                              "pendingKeys": Map {
+                                "cheerio" => false,
+                                "$$typeof" => false,
+                                "nodeType" => false,
+                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                "_isMockFunction" => false,
+                                "toJSON" => false,
+                              },
+                              "proxy": [Circular],
+                              "target": Object {
+                                "calories": 200,
+                                "id": 4,
+                                "name": "Pizza",
+                                "unit": "gram",
+                                Symbol(mobx administration): [Circular],
+                              },
+                              "values": Map {
+                                "id" => 4,
+                                "name" => "Pizza",
+                                "unit" => "gram",
+                                "calories" => 200,
+                              },
+                            },
+                          },
+                          "quantity": 1,
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "food" => Object {
+                            "calories": 200,
+                            "id": 4,
+                            "name": "Pizza",
+                            "unit": "gram",
+                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                              "defaultEnhancer": [Function],
+                              "keysAtom": Atom$$1 {
+                                "diffValue": 0,
+                                "isBeingObserved": false,
+                                "isPendingUnobservation": false,
+                                "lastAccessedBy": 0,
+                                "lowestObserverState": 2,
+                                "name": "ObservableArray@3[..].food.keys",
+                                "observers": Set {},
+                              },
+                              "name": "ObservableArray@3[..].food",
+                              "pendingKeys": Map {
+                                "cheerio" => false,
+                                "$$typeof" => false,
+                                "nodeType" => false,
+                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                "_isMockFunction" => false,
+                                "toJSON" => false,
+                              },
+                              "proxy": [Circular],
+                              "target": Object {
+                                "calories": 200,
+                                "id": 4,
+                                "name": "Pizza",
+                                "unit": "gram",
+                                Symbol(mobx administration): [Circular],
+                              },
+                              "values": Map {
+                                "id" => 4,
+                                "name" => "Pizza",
+                                "unit" => "gram",
+                                "calories" => 200,
+                              },
+                            },
+                          },
+                          "quantity" => 1,
+                        },
+                      },
+                    },
+                  ],
+                  "type": "lunch",
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": -1,
+                      "name": "Meal@6.keys",
+                      "observers": Set {},
+                    },
+                    "name": "Meal@6",
+                    "target": [Circular],
+                    "values": Map {
+                      "calories" => 520,
+                      "hasFood" => true,
+                    },
+                  },
+                },
+                "hasMeals" => true,
+              },
+            },
+          },
+        ]
+      }
+      onDayClose={[Function]}
+      onMealAdd={[Function]}
+    >
+      <ul
+        className="day-list"
+      >
+        <li
+          key="0"
+        >
+          <wrappedComponent
+            closed={false}
+            day={
+              Day {
+                "mealList": Array [
+                  Meal {
+                    "foodList": Array [
+                      Object {
+                        "food": Object {
+                          "calories": 160,
+                          "id": 5,
+                          "name": "Beer",
+                          "unit": "pint",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 160,
+                              "id": 5,
+                              "name": "Beer",
+                              "unit": "pint",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 5,
+                              "name" => "Beer",
+                              "unit" => "pint",
+                              "calories" => 160,
+                            },
+                          },
+                        },
+                        "quantity": 2,
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..]",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "food": Object {
+                              "calories": 160,
+                              "id": 5,
+                              "name": "Beer",
+                              "unit": "pint",
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@3[..].food.keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@3[..].food",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "calories": 160,
+                                  "id": 5,
+                                  "name": "Beer",
+                                  "unit": "pint",
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 5,
+                                  "name" => "Beer",
+                                  "unit" => "pint",
+                                  "calories" => 160,
+                                },
+                              },
+                            },
+                            "quantity": 2,
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "food" => Object {
+                              "calories": 160,
+                              "id": 5,
+                              "name": "Beer",
+                              "unit": "pint",
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@3[..].food.keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@3[..].food",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "calories": 160,
+                                  "id": 5,
+                                  "name": "Beer",
+                                  "unit": "pint",
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 5,
+                                  "name" => "Beer",
+                                  "unit" => "pint",
+                                  "calories" => 160,
+                                },
+                              },
+                            },
+                            "quantity" => 2,
+                          },
+                        },
+                      },
+                      Object {
+                        "food": Object {
+                          "calories": 200,
+                          "id": 4,
+                          "name": "Pizza",
+                          "unit": "gram",
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].food.keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..].food",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "calories": 200,
+                              "id": 4,
+                              "name": "Pizza",
+                              "unit": "gram",
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 4,
+                              "name" => "Pizza",
+                              "unit" => "gram",
+                              "calories" => 200,
+                            },
+                          },
+                        },
+                        "quantity": 1,
+                        Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                          "defaultEnhancer": [Function],
+                          "keysAtom": Atom$$1 {
+                            "diffValue": 0,
+                            "isBeingObserved": false,
+                            "isPendingUnobservation": false,
+                            "lastAccessedBy": 0,
+                            "lowestObserverState": 2,
+                            "name": "ObservableArray@3[..].keys",
+                            "observers": Set {},
+                          },
+                          "name": "ObservableArray@3[..]",
+                          "pendingKeys": Map {
+                            "cheerio" => false,
+                            "$$typeof" => false,
+                            "nodeType" => false,
+                            "@@__IMMUTABLE_ITERABLE__@@" => false,
+                            "@@__IMMUTABLE_RECORD__@@" => false,
+                            "_isMockFunction" => false,
+                            "toJSON" => false,
+                          },
+                          "proxy": [Circular],
+                          "target": Object {
+                            "food": Object {
+                              "calories": 200,
+                              "id": 4,
+                              "name": "Pizza",
+                              "unit": "gram",
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@3[..].food.keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@3[..].food",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "calories": 200,
+                                  "id": 4,
+                                  "name": "Pizza",
+                                  "unit": "gram",
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 4,
+                                  "name" => "Pizza",
+                                  "unit" => "gram",
+                                  "calories" => 200,
+                                },
+                              },
+                            },
+                            "quantity": 1,
+                            Symbol(mobx administration): [Circular],
+                          },
+                          "values": Map {
+                            "food" => Object {
+                              "calories": 200,
+                              "id": 4,
+                              "name": "Pizza",
+                              "unit": "gram",
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@3[..].food.keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@3[..].food",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "calories": 200,
+                                  "id": 4,
+                                  "name": "Pizza",
+                                  "unit": "gram",
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 4,
+                                  "name" => "Pizza",
+                                  "unit" => "gram",
+                                  "calories" => 200,
+                                },
+                              },
+                            },
+                            "quantity" => 1,
+                          },
+                        },
+                      },
+                    ],
+                    "type": "lunch",
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": -1,
+                        "name": "Meal@6.keys",
+                        "observers": Set {},
+                      },
+                      "name": "Meal@6",
+                      "target": [Circular],
+                      "values": Map {
+                        "calories" => 520,
+                        "hasFood" => true,
+                      },
+                    },
+                  },
+                ],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": -1,
+                    "name": "Day@9.keys",
+                    "observers": Set {},
+                  },
+                  "name": "Day@9",
+                  "target": [Circular],
+                  "values": Map {
+                    "calories" => 520,
+                    "lastMeal" => Meal {
+                      "foodList": Array [
+                        Object {
+                          "food": Object {
+                            "calories": 160,
+                            "id": 5,
+                            "name": "Beer",
+                            "unit": "pint",
+                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                              "defaultEnhancer": [Function],
+                              "keysAtom": Atom$$1 {
+                                "diffValue": 0,
+                                "isBeingObserved": false,
+                                "isPendingUnobservation": false,
+                                "lastAccessedBy": 0,
+                                "lowestObserverState": 2,
+                                "name": "ObservableArray@3[..].food.keys",
+                                "observers": Set {},
+                              },
+                              "name": "ObservableArray@3[..].food",
+                              "pendingKeys": Map {
+                                "cheerio" => false,
+                                "$$typeof" => false,
+                                "nodeType" => false,
+                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                "_isMockFunction" => false,
+                                "toJSON" => false,
+                              },
+                              "proxy": [Circular],
+                              "target": Object {
+                                "calories": 160,
+                                "id": 5,
+                                "name": "Beer",
+                                "unit": "pint",
+                                Symbol(mobx administration): [Circular],
+                              },
+                              "values": Map {
+                                "id" => 5,
+                                "name" => "Beer",
+                                "unit" => "pint",
+                                "calories" => 160,
+                              },
+                            },
+                          },
+                          "quantity": 2,
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..]",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "food": Object {
+                                "calories": 160,
+                                "id": 5,
+                                "name": "Beer",
+                                "unit": "pint",
+                                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                  "defaultEnhancer": [Function],
+                                  "keysAtom": Atom$$1 {
+                                    "diffValue": 0,
+                                    "isBeingObserved": false,
+                                    "isPendingUnobservation": false,
+                                    "lastAccessedBy": 0,
+                                    "lowestObserverState": 2,
+                                    "name": "ObservableArray@3[..].food.keys",
+                                    "observers": Set {},
+                                  },
+                                  "name": "ObservableArray@3[..].food",
+                                  "pendingKeys": Map {
+                                    "cheerio" => false,
+                                    "$$typeof" => false,
+                                    "nodeType" => false,
+                                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                    "@@__IMMUTABLE_RECORD__@@" => false,
+                                    "_isMockFunction" => false,
+                                    "toJSON" => false,
+                                  },
+                                  "proxy": [Circular],
+                                  "target": Object {
+                                    "calories": 160,
+                                    "id": 5,
+                                    "name": "Beer",
+                                    "unit": "pint",
+                                    Symbol(mobx administration): [Circular],
+                                  },
+                                  "values": Map {
+                                    "id" => 5,
+                                    "name" => "Beer",
+                                    "unit" => "pint",
+                                    "calories" => 160,
+                                  },
+                                },
+                              },
+                              "quantity": 2,
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "food" => Object {
+                                "calories": 160,
+                                "id": 5,
+                                "name": "Beer",
+                                "unit": "pint",
+                                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                  "defaultEnhancer": [Function],
+                                  "keysAtom": Atom$$1 {
+                                    "diffValue": 0,
+                                    "isBeingObserved": false,
+                                    "isPendingUnobservation": false,
+                                    "lastAccessedBy": 0,
+                                    "lowestObserverState": 2,
+                                    "name": "ObservableArray@3[..].food.keys",
+                                    "observers": Set {},
+                                  },
+                                  "name": "ObservableArray@3[..].food",
+                                  "pendingKeys": Map {
+                                    "cheerio" => false,
+                                    "$$typeof" => false,
+                                    "nodeType" => false,
+                                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                    "@@__IMMUTABLE_RECORD__@@" => false,
+                                    "_isMockFunction" => false,
+                                    "toJSON" => false,
+                                  },
+                                  "proxy": [Circular],
+                                  "target": Object {
+                                    "calories": 160,
+                                    "id": 5,
+                                    "name": "Beer",
+                                    "unit": "pint",
+                                    Symbol(mobx administration): [Circular],
+                                  },
+                                  "values": Map {
+                                    "id" => 5,
+                                    "name" => "Beer",
+                                    "unit" => "pint",
+                                    "calories" => 160,
+                                  },
+                                },
+                              },
+                              "quantity" => 2,
+                            },
+                          },
+                        },
+                        Object {
+                          "food": Object {
+                            "calories": 200,
+                            "id": 4,
+                            "name": "Pizza",
+                            "unit": "gram",
+                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                              "defaultEnhancer": [Function],
+                              "keysAtom": Atom$$1 {
+                                "diffValue": 0,
+                                "isBeingObserved": false,
+                                "isPendingUnobservation": false,
+                                "lastAccessedBy": 0,
+                                "lowestObserverState": 2,
+                                "name": "ObservableArray@3[..].food.keys",
+                                "observers": Set {},
+                              },
+                              "name": "ObservableArray@3[..].food",
+                              "pendingKeys": Map {
+                                "cheerio" => false,
+                                "$$typeof" => false,
+                                "nodeType" => false,
+                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                "_isMockFunction" => false,
+                                "toJSON" => false,
+                              },
+                              "proxy": [Circular],
+                              "target": Object {
+                                "calories": 200,
+                                "id": 4,
+                                "name": "Pizza",
+                                "unit": "gram",
+                                Symbol(mobx administration): [Circular],
+                              },
+                              "values": Map {
+                                "id" => 4,
+                                "name" => "Pizza",
+                                "unit" => "gram",
+                                "calories" => 200,
+                              },
+                            },
+                          },
+                          "quantity": 1,
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@3[..].keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@3[..]",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "food": Object {
+                                "calories": 200,
+                                "id": 4,
+                                "name": "Pizza",
+                                "unit": "gram",
+                                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                  "defaultEnhancer": [Function],
+                                  "keysAtom": Atom$$1 {
+                                    "diffValue": 0,
+                                    "isBeingObserved": false,
+                                    "isPendingUnobservation": false,
+                                    "lastAccessedBy": 0,
+                                    "lowestObserverState": 2,
+                                    "name": "ObservableArray@3[..].food.keys",
+                                    "observers": Set {},
+                                  },
+                                  "name": "ObservableArray@3[..].food",
+                                  "pendingKeys": Map {
+                                    "cheerio" => false,
+                                    "$$typeof" => false,
+                                    "nodeType" => false,
+                                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                    "@@__IMMUTABLE_RECORD__@@" => false,
+                                    "_isMockFunction" => false,
+                                    "toJSON" => false,
+                                  },
+                                  "proxy": [Circular],
+                                  "target": Object {
+                                    "calories": 200,
+                                    "id": 4,
+                                    "name": "Pizza",
+                                    "unit": "gram",
+                                    Symbol(mobx administration): [Circular],
+                                  },
+                                  "values": Map {
+                                    "id" => 4,
+                                    "name" => "Pizza",
+                                    "unit" => "gram",
+                                    "calories" => 200,
+                                  },
+                                },
+                              },
+                              "quantity": 1,
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "food" => Object {
+                                "calories": 200,
+                                "id": 4,
+                                "name": "Pizza",
+                                "unit": "gram",
+                                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                  "defaultEnhancer": [Function],
+                                  "keysAtom": Atom$$1 {
+                                    "diffValue": 0,
+                                    "isBeingObserved": false,
+                                    "isPendingUnobservation": false,
+                                    "lastAccessedBy": 0,
+                                    "lowestObserverState": 2,
+                                    "name": "ObservableArray@3[..].food.keys",
+                                    "observers": Set {},
+                                  },
+                                  "name": "ObservableArray@3[..].food",
+                                  "pendingKeys": Map {
+                                    "cheerio" => false,
+                                    "$$typeof" => false,
+                                    "nodeType" => false,
+                                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                    "@@__IMMUTABLE_RECORD__@@" => false,
+                                    "_isMockFunction" => false,
+                                    "toJSON" => false,
+                                  },
+                                  "proxy": [Circular],
+                                  "target": Object {
+                                    "calories": 200,
+                                    "id": 4,
+                                    "name": "Pizza",
+                                    "unit": "gram",
+                                    Symbol(mobx administration): [Circular],
+                                  },
+                                  "values": Map {
+                                    "id" => 4,
+                                    "name" => "Pizza",
+                                    "unit" => "gram",
+                                    "calories" => 200,
+                                  },
+                                },
+                              },
+                              "quantity" => 1,
+                            },
+                          },
+                        },
+                      ],
+                      "type": "lunch",
+                      Symbol(mobx did run lazy initializers): true,
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": -1,
+                          "name": "Meal@6.keys",
+                          "observers": Set {},
+                        },
+                        "name": "Meal@6",
+                        "target": [Circular],
+                        "values": Map {
+                          "calories" => 520,
+                          "hasFood" => true,
+                        },
+                      },
+                    },
+                    "hasMeals" => true,
+                  },
+                },
+              }
+            }
+            index={0}
+            onDayClose={[Function]}
+            onMealAdd={[Function]}
+          >
+            <Card
+              as="div"
+              body={false}
+              className="day-card"
+            >
+              <div
+                className="day-card card"
+              >
+                <CardBody>
+                  <div
+                    className="card-body"
+                  >
+                    <CardTitle>
+                      <ForwardRef
+                        className="card-title"
+                      >
+                        <div
+                          className="card-title h5"
+                        >
+                          Day 
+                          0
+                        </div>
+                      </ForwardRef>
+                    </CardTitle>
+                    <CardSubtitle>
+                      <ForwardRef
+                        className="card-subtitle"
+                      >
+                        <div
+                          className="card-subtitle h6"
+                        >
+                          1
+                           meals 
+                          520
+                           calories
+                        </div>
+                      </ForwardRef>
+                    </CardSubtitle>
+                    <wrappedComponent
+                      mealList={
+                        Array [
+                          Meal {
+                            "foodList": Array [
+                              Object {
+                                "food": Object {
+                                  "calories": 160,
+                                  "id": 5,
+                                  "name": "Beer",
+                                  "unit": "pint",
+                                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                    "defaultEnhancer": [Function],
+                                    "keysAtom": Atom$$1 {
+                                      "diffValue": 0,
+                                      "isBeingObserved": false,
+                                      "isPendingUnobservation": false,
+                                      "lastAccessedBy": 0,
+                                      "lowestObserverState": 2,
+                                      "name": "ObservableArray@3[..].food.keys",
+                                      "observers": Set {},
+                                    },
+                                    "name": "ObservableArray@3[..].food",
+                                    "pendingKeys": Map {
+                                      "cheerio" => false,
+                                      "$$typeof" => false,
+                                      "nodeType" => false,
+                                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                      "@@__IMMUTABLE_RECORD__@@" => false,
+                                      "_isMockFunction" => false,
+                                      "toJSON" => false,
+                                    },
+                                    "proxy": [Circular],
+                                    "target": Object {
+                                      "calories": 160,
+                                      "id": 5,
+                                      "name": "Beer",
+                                      "unit": "pint",
+                                      Symbol(mobx administration): [Circular],
+                                    },
+                                    "values": Map {
+                                      "id" => 5,
+                                      "name" => "Beer",
+                                      "unit" => "pint",
+                                      "calories" => 160,
+                                    },
+                                  },
+                                },
+                                "quantity": 2,
+                                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                  "defaultEnhancer": [Function],
+                                  "keysAtom": Atom$$1 {
+                                    "diffValue": 0,
+                                    "isBeingObserved": false,
+                                    "isPendingUnobservation": false,
+                                    "lastAccessedBy": 0,
+                                    "lowestObserverState": 2,
+                                    "name": "ObservableArray@3[..].keys",
+                                    "observers": Set {},
+                                  },
+                                  "name": "ObservableArray@3[..]",
+                                  "pendingKeys": Map {
+                                    "cheerio" => false,
+                                    "$$typeof" => false,
+                                    "nodeType" => false,
+                                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                    "@@__IMMUTABLE_RECORD__@@" => false,
+                                    "_isMockFunction" => false,
+                                    "toJSON" => false,
+                                  },
+                                  "proxy": [Circular],
+                                  "target": Object {
+                                    "food": Object {
+                                      "calories": 160,
+                                      "id": 5,
+                                      "name": "Beer",
+                                      "unit": "pint",
+                                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                        "defaultEnhancer": [Function],
+                                        "keysAtom": Atom$$1 {
+                                          "diffValue": 0,
+                                          "isBeingObserved": false,
+                                          "isPendingUnobservation": false,
+                                          "lastAccessedBy": 0,
+                                          "lowestObserverState": 2,
+                                          "name": "ObservableArray@3[..].food.keys",
+                                          "observers": Set {},
+                                        },
+                                        "name": "ObservableArray@3[..].food",
+                                        "pendingKeys": Map {
+                                          "cheerio" => false,
+                                          "$$typeof" => false,
+                                          "nodeType" => false,
+                                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                          "@@__IMMUTABLE_RECORD__@@" => false,
+                                          "_isMockFunction" => false,
+                                          "toJSON" => false,
+                                        },
+                                        "proxy": [Circular],
+                                        "target": Object {
+                                          "calories": 160,
+                                          "id": 5,
+                                          "name": "Beer",
+                                          "unit": "pint",
+                                          Symbol(mobx administration): [Circular],
+                                        },
+                                        "values": Map {
+                                          "id" => 5,
+                                          "name" => "Beer",
+                                          "unit" => "pint",
+                                          "calories" => 160,
+                                        },
+                                      },
+                                    },
+                                    "quantity": 2,
+                                    Symbol(mobx administration): [Circular],
+                                  },
+                                  "values": Map {
+                                    "food" => Object {
+                                      "calories": 160,
+                                      "id": 5,
+                                      "name": "Beer",
+                                      "unit": "pint",
+                                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                        "defaultEnhancer": [Function],
+                                        "keysAtom": Atom$$1 {
+                                          "diffValue": 0,
+                                          "isBeingObserved": false,
+                                          "isPendingUnobservation": false,
+                                          "lastAccessedBy": 0,
+                                          "lowestObserverState": 2,
+                                          "name": "ObservableArray@3[..].food.keys",
+                                          "observers": Set {},
+                                        },
+                                        "name": "ObservableArray@3[..].food",
+                                        "pendingKeys": Map {
+                                          "cheerio" => false,
+                                          "$$typeof" => false,
+                                          "nodeType" => false,
+                                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                          "@@__IMMUTABLE_RECORD__@@" => false,
+                                          "_isMockFunction" => false,
+                                          "toJSON" => false,
+                                        },
+                                        "proxy": [Circular],
+                                        "target": Object {
+                                          "calories": 160,
+                                          "id": 5,
+                                          "name": "Beer",
+                                          "unit": "pint",
+                                          Symbol(mobx administration): [Circular],
+                                        },
+                                        "values": Map {
+                                          "id" => 5,
+                                          "name" => "Beer",
+                                          "unit" => "pint",
+                                          "calories" => 160,
+                                        },
+                                      },
+                                    },
+                                    "quantity" => 2,
+                                  },
+                                },
+                              },
+                              Object {
+                                "food": Object {
+                                  "calories": 200,
+                                  "id": 4,
+                                  "name": "Pizza",
+                                  "unit": "gram",
+                                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                    "defaultEnhancer": [Function],
+                                    "keysAtom": Atom$$1 {
+                                      "diffValue": 0,
+                                      "isBeingObserved": false,
+                                      "isPendingUnobservation": false,
+                                      "lastAccessedBy": 0,
+                                      "lowestObserverState": 2,
+                                      "name": "ObservableArray@3[..].food.keys",
+                                      "observers": Set {},
+                                    },
+                                    "name": "ObservableArray@3[..].food",
+                                    "pendingKeys": Map {
+                                      "cheerio" => false,
+                                      "$$typeof" => false,
+                                      "nodeType" => false,
+                                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                      "@@__IMMUTABLE_RECORD__@@" => false,
+                                      "_isMockFunction" => false,
+                                      "toJSON" => false,
+                                    },
+                                    "proxy": [Circular],
+                                    "target": Object {
+                                      "calories": 200,
+                                      "id": 4,
+                                      "name": "Pizza",
+                                      "unit": "gram",
+                                      Symbol(mobx administration): [Circular],
+                                    },
+                                    "values": Map {
+                                      "id" => 4,
+                                      "name" => "Pizza",
+                                      "unit" => "gram",
+                                      "calories" => 200,
+                                    },
+                                  },
+                                },
+                                "quantity": 1,
+                                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                  "defaultEnhancer": [Function],
+                                  "keysAtom": Atom$$1 {
+                                    "diffValue": 0,
+                                    "isBeingObserved": false,
+                                    "isPendingUnobservation": false,
+                                    "lastAccessedBy": 0,
+                                    "lowestObserverState": 2,
+                                    "name": "ObservableArray@3[..].keys",
+                                    "observers": Set {},
+                                  },
+                                  "name": "ObservableArray@3[..]",
+                                  "pendingKeys": Map {
+                                    "cheerio" => false,
+                                    "$$typeof" => false,
+                                    "nodeType" => false,
+                                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                    "@@__IMMUTABLE_RECORD__@@" => false,
+                                    "_isMockFunction" => false,
+                                    "toJSON" => false,
+                                  },
+                                  "proxy": [Circular],
+                                  "target": Object {
+                                    "food": Object {
+                                      "calories": 200,
+                                      "id": 4,
+                                      "name": "Pizza",
+                                      "unit": "gram",
+                                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                        "defaultEnhancer": [Function],
+                                        "keysAtom": Atom$$1 {
+                                          "diffValue": 0,
+                                          "isBeingObserved": false,
+                                          "isPendingUnobservation": false,
+                                          "lastAccessedBy": 0,
+                                          "lowestObserverState": 2,
+                                          "name": "ObservableArray@3[..].food.keys",
+                                          "observers": Set {},
+                                        },
+                                        "name": "ObservableArray@3[..].food",
+                                        "pendingKeys": Map {
+                                          "cheerio" => false,
+                                          "$$typeof" => false,
+                                          "nodeType" => false,
+                                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                          "@@__IMMUTABLE_RECORD__@@" => false,
+                                          "_isMockFunction" => false,
+                                          "toJSON" => false,
+                                        },
+                                        "proxy": [Circular],
+                                        "target": Object {
+                                          "calories": 200,
+                                          "id": 4,
+                                          "name": "Pizza",
+                                          "unit": "gram",
+                                          Symbol(mobx administration): [Circular],
+                                        },
+                                        "values": Map {
+                                          "id" => 4,
+                                          "name" => "Pizza",
+                                          "unit" => "gram",
+                                          "calories" => 200,
+                                        },
+                                      },
+                                    },
+                                    "quantity": 1,
+                                    Symbol(mobx administration): [Circular],
+                                  },
+                                  "values": Map {
+                                    "food" => Object {
+                                      "calories": 200,
+                                      "id": 4,
+                                      "name": "Pizza",
+                                      "unit": "gram",
+                                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                        "defaultEnhancer": [Function],
+                                        "keysAtom": Atom$$1 {
+                                          "diffValue": 0,
+                                          "isBeingObserved": false,
+                                          "isPendingUnobservation": false,
+                                          "lastAccessedBy": 0,
+                                          "lowestObserverState": 2,
+                                          "name": "ObservableArray@3[..].food.keys",
+                                          "observers": Set {},
+                                        },
+                                        "name": "ObservableArray@3[..].food",
+                                        "pendingKeys": Map {
+                                          "cheerio" => false,
+                                          "$$typeof" => false,
+                                          "nodeType" => false,
+                                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                          "@@__IMMUTABLE_RECORD__@@" => false,
+                                          "_isMockFunction" => false,
+                                          "toJSON" => false,
+                                        },
+                                        "proxy": [Circular],
+                                        "target": Object {
+                                          "calories": 200,
+                                          "id": 4,
+                                          "name": "Pizza",
+                                          "unit": "gram",
+                                          Symbol(mobx administration): [Circular],
+                                        },
+                                        "values": Map {
+                                          "id" => 4,
+                                          "name" => "Pizza",
+                                          "unit" => "gram",
+                                          "calories" => 200,
+                                        },
+                                      },
+                                    },
+                                    "quantity" => 1,
+                                  },
+                                },
+                              },
+                            ],
+                            "type": "lunch",
+                            Symbol(mobx did run lazy initializers): true,
+                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                              "defaultEnhancer": [Function],
+                              "keysAtom": Atom$$1 {
+                                "diffValue": 0,
+                                "isBeingObserved": false,
+                                "isPendingUnobservation": false,
+                                "lastAccessedBy": 0,
+                                "lowestObserverState": -1,
+                                "name": "Meal@6.keys",
+                                "observers": Set {},
+                              },
+                              "name": "Meal@6",
+                              "target": [Circular],
+                              "values": Map {
+                                "calories" => 520,
+                                "hasFood" => true,
+                              },
+                            },
+                          },
+                        ]
+                      }
+                    >
+                      <ul
+                        className="meal-list"
+                      >
+                        <li
+                          key="0"
+                        >
+                          <wrappedComponent
+                            index={0}
+                            meal={
+                              Meal {
+                                "foodList": Array [
+                                  Object {
+                                    "food": Object {
+                                      "calories": 160,
+                                      "id": 5,
+                                      "name": "Beer",
+                                      "unit": "pint",
+                                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                        "defaultEnhancer": [Function],
+                                        "keysAtom": Atom$$1 {
+                                          "diffValue": 0,
+                                          "isBeingObserved": false,
+                                          "isPendingUnobservation": false,
+                                          "lastAccessedBy": 0,
+                                          "lowestObserverState": 2,
+                                          "name": "ObservableArray@3[..].food.keys",
+                                          "observers": Set {},
+                                        },
+                                        "name": "ObservableArray@3[..].food",
+                                        "pendingKeys": Map {
+                                          "cheerio" => false,
+                                          "$$typeof" => false,
+                                          "nodeType" => false,
+                                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                          "@@__IMMUTABLE_RECORD__@@" => false,
+                                          "_isMockFunction" => false,
+                                          "toJSON" => false,
+                                        },
+                                        "proxy": [Circular],
+                                        "target": Object {
+                                          "calories": 160,
+                                          "id": 5,
+                                          "name": "Beer",
+                                          "unit": "pint",
+                                          Symbol(mobx administration): [Circular],
+                                        },
+                                        "values": Map {
+                                          "id" => 5,
+                                          "name" => "Beer",
+                                          "unit" => "pint",
+                                          "calories" => 160,
+                                        },
+                                      },
+                                    },
+                                    "quantity": 2,
+                                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                      "defaultEnhancer": [Function],
+                                      "keysAtom": Atom$$1 {
+                                        "diffValue": 0,
+                                        "isBeingObserved": false,
+                                        "isPendingUnobservation": false,
+                                        "lastAccessedBy": 0,
+                                        "lowestObserverState": 2,
+                                        "name": "ObservableArray@3[..].keys",
+                                        "observers": Set {},
+                                      },
+                                      "name": "ObservableArray@3[..]",
+                                      "pendingKeys": Map {
+                                        "cheerio" => false,
+                                        "$$typeof" => false,
+                                        "nodeType" => false,
+                                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                        "@@__IMMUTABLE_RECORD__@@" => false,
+                                        "_isMockFunction" => false,
+                                        "toJSON" => false,
+                                      },
+                                      "proxy": [Circular],
+                                      "target": Object {
+                                        "food": Object {
+                                          "calories": 160,
+                                          "id": 5,
+                                          "name": "Beer",
+                                          "unit": "pint",
+                                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                            "defaultEnhancer": [Function],
+                                            "keysAtom": Atom$$1 {
+                                              "diffValue": 0,
+                                              "isBeingObserved": false,
+                                              "isPendingUnobservation": false,
+                                              "lastAccessedBy": 0,
+                                              "lowestObserverState": 2,
+                                              "name": "ObservableArray@3[..].food.keys",
+                                              "observers": Set {},
+                                            },
+                                            "name": "ObservableArray@3[..].food",
+                                            "pendingKeys": Map {
+                                              "cheerio" => false,
+                                              "$$typeof" => false,
+                                              "nodeType" => false,
+                                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                              "@@__IMMUTABLE_RECORD__@@" => false,
+                                              "_isMockFunction" => false,
+                                              "toJSON" => false,
+                                            },
+                                            "proxy": [Circular],
+                                            "target": Object {
+                                              "calories": 160,
+                                              "id": 5,
+                                              "name": "Beer",
+                                              "unit": "pint",
+                                              Symbol(mobx administration): [Circular],
+                                            },
+                                            "values": Map {
+                                              "id" => 5,
+                                              "name" => "Beer",
+                                              "unit" => "pint",
+                                              "calories" => 160,
+                                            },
+                                          },
+                                        },
+                                        "quantity": 2,
+                                        Symbol(mobx administration): [Circular],
+                                      },
+                                      "values": Map {
+                                        "food" => Object {
+                                          "calories": 160,
+                                          "id": 5,
+                                          "name": "Beer",
+                                          "unit": "pint",
+                                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                            "defaultEnhancer": [Function],
+                                            "keysAtom": Atom$$1 {
+                                              "diffValue": 0,
+                                              "isBeingObserved": false,
+                                              "isPendingUnobservation": false,
+                                              "lastAccessedBy": 0,
+                                              "lowestObserverState": 2,
+                                              "name": "ObservableArray@3[..].food.keys",
+                                              "observers": Set {},
+                                            },
+                                            "name": "ObservableArray@3[..].food",
+                                            "pendingKeys": Map {
+                                              "cheerio" => false,
+                                              "$$typeof" => false,
+                                              "nodeType" => false,
+                                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                              "@@__IMMUTABLE_RECORD__@@" => false,
+                                              "_isMockFunction" => false,
+                                              "toJSON" => false,
+                                            },
+                                            "proxy": [Circular],
+                                            "target": Object {
+                                              "calories": 160,
+                                              "id": 5,
+                                              "name": "Beer",
+                                              "unit": "pint",
+                                              Symbol(mobx administration): [Circular],
+                                            },
+                                            "values": Map {
+                                              "id" => 5,
+                                              "name" => "Beer",
+                                              "unit" => "pint",
+                                              "calories" => 160,
+                                            },
+                                          },
+                                        },
+                                        "quantity" => 2,
+                                      },
+                                    },
+                                  },
+                                  Object {
+                                    "food": Object {
+                                      "calories": 200,
+                                      "id": 4,
+                                      "name": "Pizza",
+                                      "unit": "gram",
+                                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                        "defaultEnhancer": [Function],
+                                        "keysAtom": Atom$$1 {
+                                          "diffValue": 0,
+                                          "isBeingObserved": false,
+                                          "isPendingUnobservation": false,
+                                          "lastAccessedBy": 0,
+                                          "lowestObserverState": 2,
+                                          "name": "ObservableArray@3[..].food.keys",
+                                          "observers": Set {},
+                                        },
+                                        "name": "ObservableArray@3[..].food",
+                                        "pendingKeys": Map {
+                                          "cheerio" => false,
+                                          "$$typeof" => false,
+                                          "nodeType" => false,
+                                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                          "@@__IMMUTABLE_RECORD__@@" => false,
+                                          "_isMockFunction" => false,
+                                          "toJSON" => false,
+                                        },
+                                        "proxy": [Circular],
+                                        "target": Object {
+                                          "calories": 200,
+                                          "id": 4,
+                                          "name": "Pizza",
+                                          "unit": "gram",
+                                          Symbol(mobx administration): [Circular],
+                                        },
+                                        "values": Map {
+                                          "id" => 4,
+                                          "name" => "Pizza",
+                                          "unit" => "gram",
+                                          "calories" => 200,
+                                        },
+                                      },
+                                    },
+                                    "quantity": 1,
+                                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                      "defaultEnhancer": [Function],
+                                      "keysAtom": Atom$$1 {
+                                        "diffValue": 0,
+                                        "isBeingObserved": false,
+                                        "isPendingUnobservation": false,
+                                        "lastAccessedBy": 0,
+                                        "lowestObserverState": 2,
+                                        "name": "ObservableArray@3[..].keys",
+                                        "observers": Set {},
+                                      },
+                                      "name": "ObservableArray@3[..]",
+                                      "pendingKeys": Map {
+                                        "cheerio" => false,
+                                        "$$typeof" => false,
+                                        "nodeType" => false,
+                                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                        "@@__IMMUTABLE_RECORD__@@" => false,
+                                        "_isMockFunction" => false,
+                                        "toJSON" => false,
+                                      },
+                                      "proxy": [Circular],
+                                      "target": Object {
+                                        "food": Object {
+                                          "calories": 200,
+                                          "id": 4,
+                                          "name": "Pizza",
+                                          "unit": "gram",
+                                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                            "defaultEnhancer": [Function],
+                                            "keysAtom": Atom$$1 {
+                                              "diffValue": 0,
+                                              "isBeingObserved": false,
+                                              "isPendingUnobservation": false,
+                                              "lastAccessedBy": 0,
+                                              "lowestObserverState": 2,
+                                              "name": "ObservableArray@3[..].food.keys",
+                                              "observers": Set {},
+                                            },
+                                            "name": "ObservableArray@3[..].food",
+                                            "pendingKeys": Map {
+                                              "cheerio" => false,
+                                              "$$typeof" => false,
+                                              "nodeType" => false,
+                                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                              "@@__IMMUTABLE_RECORD__@@" => false,
+                                              "_isMockFunction" => false,
+                                              "toJSON" => false,
+                                            },
+                                            "proxy": [Circular],
+                                            "target": Object {
+                                              "calories": 200,
+                                              "id": 4,
+                                              "name": "Pizza",
+                                              "unit": "gram",
+                                              Symbol(mobx administration): [Circular],
+                                            },
+                                            "values": Map {
+                                              "id" => 4,
+                                              "name" => "Pizza",
+                                              "unit" => "gram",
+                                              "calories" => 200,
+                                            },
+                                          },
+                                        },
+                                        "quantity": 1,
+                                        Symbol(mobx administration): [Circular],
+                                      },
+                                      "values": Map {
+                                        "food" => Object {
+                                          "calories": 200,
+                                          "id": 4,
+                                          "name": "Pizza",
+                                          "unit": "gram",
+                                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                            "defaultEnhancer": [Function],
+                                            "keysAtom": Atom$$1 {
+                                              "diffValue": 0,
+                                              "isBeingObserved": false,
+                                              "isPendingUnobservation": false,
+                                              "lastAccessedBy": 0,
+                                              "lowestObserverState": 2,
+                                              "name": "ObservableArray@3[..].food.keys",
+                                              "observers": Set {},
+                                            },
+                                            "name": "ObservableArray@3[..].food",
+                                            "pendingKeys": Map {
+                                              "cheerio" => false,
+                                              "$$typeof" => false,
+                                              "nodeType" => false,
+                                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                              "@@__IMMUTABLE_RECORD__@@" => false,
+                                              "_isMockFunction" => false,
+                                              "toJSON" => false,
+                                            },
+                                            "proxy": [Circular],
+                                            "target": Object {
+                                              "calories": 200,
+                                              "id": 4,
+                                              "name": "Pizza",
+                                              "unit": "gram",
+                                              Symbol(mobx administration): [Circular],
+                                            },
+                                            "values": Map {
+                                              "id" => 4,
+                                              "name" => "Pizza",
+                                              "unit" => "gram",
+                                              "calories" => 200,
+                                            },
+                                          },
+                                        },
+                                        "quantity" => 1,
+                                      },
+                                    },
+                                  },
+                                ],
+                                "type": "lunch",
+                                Symbol(mobx did run lazy initializers): true,
+                                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                  "defaultEnhancer": [Function],
+                                  "keysAtom": Atom$$1 {
+                                    "diffValue": 0,
+                                    "isBeingObserved": false,
+                                    "isPendingUnobservation": false,
+                                    "lastAccessedBy": 0,
+                                    "lowestObserverState": -1,
+                                    "name": "Meal@6.keys",
+                                    "observers": Set {},
+                                  },
+                                  "name": "Meal@6",
+                                  "target": [Circular],
+                                  "values": Map {
+                                    "calories" => 520,
+                                    "hasFood" => true,
+                                  },
+                                },
+                              }
+                            }
+                          >
+                            <Card
+                              as="div"
+                              body={false}
+                              className="meal-card"
+                            >
+                              <div
+                                className="meal-card card"
+                              >
+                                <CardBody>
+                                  <div
+                                    className="card-body"
+                                  >
+                                    <CardTitle>
+                                      <ForwardRef
+                                        className="card-title"
+                                      >
+                                        <div
+                                          className="card-title h5"
+                                        >
+                                          Lunch
+                                        </div>
+                                      </ForwardRef>
+                                    </CardTitle>
+                                    <CardSubtitle>
+                                      <ForwardRef
+                                        className="card-subtitle"
+                                      >
+                                        <div
+                                          className="card-subtitle h6"
+                                        >
+                                          2
+                                           food items 
+                                          520
+                                           calories
+                                        </div>
+                                      </ForwardRef>
+                                    </CardSubtitle>
+                                    <wrappedComponent
+                                      foodList={
+                                        Array [
+                                          Object {
+                                            "food": Object {
+                                              "calories": 160,
+                                              "id": 5,
+                                              "name": "Beer",
+                                              "unit": "pint",
+                                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                "defaultEnhancer": [Function],
+                                                "keysAtom": Atom$$1 {
+                                                  "diffValue": 0,
+                                                  "isBeingObserved": false,
+                                                  "isPendingUnobservation": false,
+                                                  "lastAccessedBy": 0,
+                                                  "lowestObserverState": 2,
+                                                  "name": "ObservableArray@3[..].food.keys",
+                                                  "observers": Set {},
+                                                },
+                                                "name": "ObservableArray@3[..].food",
+                                                "pendingKeys": Map {
+                                                  "cheerio" => false,
+                                                  "$$typeof" => false,
+                                                  "nodeType" => false,
+                                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                                  "_isMockFunction" => false,
+                                                  "toJSON" => false,
+                                                },
+                                                "proxy": [Circular],
+                                                "target": Object {
+                                                  "calories": 160,
+                                                  "id": 5,
+                                                  "name": "Beer",
+                                                  "unit": "pint",
+                                                  Symbol(mobx administration): [Circular],
+                                                },
+                                                "values": Map {
+                                                  "id" => 5,
+                                                  "name" => "Beer",
+                                                  "unit" => "pint",
+                                                  "calories" => 160,
+                                                },
+                                              },
+                                            },
+                                            "quantity": 2,
+                                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                              "defaultEnhancer": [Function],
+                                              "keysAtom": Atom$$1 {
+                                                "diffValue": 0,
+                                                "isBeingObserved": false,
+                                                "isPendingUnobservation": false,
+                                                "lastAccessedBy": 0,
+                                                "lowestObserverState": 2,
+                                                "name": "ObservableArray@3[..].keys",
+                                                "observers": Set {},
+                                              },
+                                              "name": "ObservableArray@3[..]",
+                                              "pendingKeys": Map {
+                                                "cheerio" => false,
+                                                "$$typeof" => false,
+                                                "nodeType" => false,
+                                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                                "_isMockFunction" => false,
+                                                "toJSON" => false,
+                                              },
+                                              "proxy": [Circular],
+                                              "target": Object {
+                                                "food": Object {
+                                                  "calories": 160,
+                                                  "id": 5,
+                                                  "name": "Beer",
+                                                  "unit": "pint",
+                                                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                    "defaultEnhancer": [Function],
+                                                    "keysAtom": Atom$$1 {
+                                                      "diffValue": 0,
+                                                      "isBeingObserved": false,
+                                                      "isPendingUnobservation": false,
+                                                      "lastAccessedBy": 0,
+                                                      "lowestObserverState": 2,
+                                                      "name": "ObservableArray@3[..].food.keys",
+                                                      "observers": Set {},
+                                                    },
+                                                    "name": "ObservableArray@3[..].food",
+                                                    "pendingKeys": Map {
+                                                      "cheerio" => false,
+                                                      "$$typeof" => false,
+                                                      "nodeType" => false,
+                                                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                      "@@__IMMUTABLE_RECORD__@@" => false,
+                                                      "_isMockFunction" => false,
+                                                      "toJSON" => false,
+                                                    },
+                                                    "proxy": [Circular],
+                                                    "target": Object {
+                                                      "calories": 160,
+                                                      "id": 5,
+                                                      "name": "Beer",
+                                                      "unit": "pint",
+                                                      Symbol(mobx administration): [Circular],
+                                                    },
+                                                    "values": Map {
+                                                      "id" => 5,
+                                                      "name" => "Beer",
+                                                      "unit" => "pint",
+                                                      "calories" => 160,
+                                                    },
+                                                  },
+                                                },
+                                                "quantity": 2,
+                                                Symbol(mobx administration): [Circular],
+                                              },
+                                              "values": Map {
+                                                "food" => Object {
+                                                  "calories": 160,
+                                                  "id": 5,
+                                                  "name": "Beer",
+                                                  "unit": "pint",
+                                                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                    "defaultEnhancer": [Function],
+                                                    "keysAtom": Atom$$1 {
+                                                      "diffValue": 0,
+                                                      "isBeingObserved": false,
+                                                      "isPendingUnobservation": false,
+                                                      "lastAccessedBy": 0,
+                                                      "lowestObserverState": 2,
+                                                      "name": "ObservableArray@3[..].food.keys",
+                                                      "observers": Set {},
+                                                    },
+                                                    "name": "ObservableArray@3[..].food",
+                                                    "pendingKeys": Map {
+                                                      "cheerio" => false,
+                                                      "$$typeof" => false,
+                                                      "nodeType" => false,
+                                                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                      "@@__IMMUTABLE_RECORD__@@" => false,
+                                                      "_isMockFunction" => false,
+                                                      "toJSON" => false,
+                                                    },
+                                                    "proxy": [Circular],
+                                                    "target": Object {
+                                                      "calories": 160,
+                                                      "id": 5,
+                                                      "name": "Beer",
+                                                      "unit": "pint",
+                                                      Symbol(mobx administration): [Circular],
+                                                    },
+                                                    "values": Map {
+                                                      "id" => 5,
+                                                      "name" => "Beer",
+                                                      "unit" => "pint",
+                                                      "calories" => 160,
+                                                    },
+                                                  },
+                                                },
+                                                "quantity" => 2,
+                                              },
+                                            },
+                                          },
+                                          Object {
+                                            "food": Object {
+                                              "calories": 200,
+                                              "id": 4,
+                                              "name": "Pizza",
+                                              "unit": "gram",
+                                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                "defaultEnhancer": [Function],
+                                                "keysAtom": Atom$$1 {
+                                                  "diffValue": 0,
+                                                  "isBeingObserved": false,
+                                                  "isPendingUnobservation": false,
+                                                  "lastAccessedBy": 0,
+                                                  "lowestObserverState": 2,
+                                                  "name": "ObservableArray@3[..].food.keys",
+                                                  "observers": Set {},
+                                                },
+                                                "name": "ObservableArray@3[..].food",
+                                                "pendingKeys": Map {
+                                                  "cheerio" => false,
+                                                  "$$typeof" => false,
+                                                  "nodeType" => false,
+                                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                                  "_isMockFunction" => false,
+                                                  "toJSON" => false,
+                                                },
+                                                "proxy": [Circular],
+                                                "target": Object {
+                                                  "calories": 200,
+                                                  "id": 4,
+                                                  "name": "Pizza",
+                                                  "unit": "gram",
+                                                  Symbol(mobx administration): [Circular],
+                                                },
+                                                "values": Map {
+                                                  "id" => 4,
+                                                  "name" => "Pizza",
+                                                  "unit" => "gram",
+                                                  "calories" => 200,
+                                                },
+                                              },
+                                            },
+                                            "quantity": 1,
+                                            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                              "defaultEnhancer": [Function],
+                                              "keysAtom": Atom$$1 {
+                                                "diffValue": 0,
+                                                "isBeingObserved": false,
+                                                "isPendingUnobservation": false,
+                                                "lastAccessedBy": 0,
+                                                "lowestObserverState": 2,
+                                                "name": "ObservableArray@3[..].keys",
+                                                "observers": Set {},
+                                              },
+                                              "name": "ObservableArray@3[..]",
+                                              "pendingKeys": Map {
+                                                "cheerio" => false,
+                                                "$$typeof" => false,
+                                                "nodeType" => false,
+                                                "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                "@@__IMMUTABLE_RECORD__@@" => false,
+                                                "_isMockFunction" => false,
+                                                "toJSON" => false,
+                                              },
+                                              "proxy": [Circular],
+                                              "target": Object {
+                                                "food": Object {
+                                                  "calories": 200,
+                                                  "id": 4,
+                                                  "name": "Pizza",
+                                                  "unit": "gram",
+                                                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                    "defaultEnhancer": [Function],
+                                                    "keysAtom": Atom$$1 {
+                                                      "diffValue": 0,
+                                                      "isBeingObserved": false,
+                                                      "isPendingUnobservation": false,
+                                                      "lastAccessedBy": 0,
+                                                      "lowestObserverState": 2,
+                                                      "name": "ObservableArray@3[..].food.keys",
+                                                      "observers": Set {},
+                                                    },
+                                                    "name": "ObservableArray@3[..].food",
+                                                    "pendingKeys": Map {
+                                                      "cheerio" => false,
+                                                      "$$typeof" => false,
+                                                      "nodeType" => false,
+                                                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                      "@@__IMMUTABLE_RECORD__@@" => false,
+                                                      "_isMockFunction" => false,
+                                                      "toJSON" => false,
+                                                    },
+                                                    "proxy": [Circular],
+                                                    "target": Object {
+                                                      "calories": 200,
+                                                      "id": 4,
+                                                      "name": "Pizza",
+                                                      "unit": "gram",
+                                                      Symbol(mobx administration): [Circular],
+                                                    },
+                                                    "values": Map {
+                                                      "id" => 4,
+                                                      "name" => "Pizza",
+                                                      "unit" => "gram",
+                                                      "calories" => 200,
+                                                    },
+                                                  },
+                                                },
+                                                "quantity": 1,
+                                                Symbol(mobx administration): [Circular],
+                                              },
+                                              "values": Map {
+                                                "food" => Object {
+                                                  "calories": 200,
+                                                  "id": 4,
+                                                  "name": "Pizza",
+                                                  "unit": "gram",
+                                                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                    "defaultEnhancer": [Function],
+                                                    "keysAtom": Atom$$1 {
+                                                      "diffValue": 0,
+                                                      "isBeingObserved": false,
+                                                      "isPendingUnobservation": false,
+                                                      "lastAccessedBy": 0,
+                                                      "lowestObserverState": 2,
+                                                      "name": "ObservableArray@3[..].food.keys",
+                                                      "observers": Set {},
+                                                    },
+                                                    "name": "ObservableArray@3[..].food",
+                                                    "pendingKeys": Map {
+                                                      "cheerio" => false,
+                                                      "$$typeof" => false,
+                                                      "nodeType" => false,
+                                                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                      "@@__IMMUTABLE_RECORD__@@" => false,
+                                                      "_isMockFunction" => false,
+                                                      "toJSON" => false,
+                                                    },
+                                                    "proxy": [Circular],
+                                                    "target": Object {
+                                                      "calories": 200,
+                                                      "id": 4,
+                                                      "name": "Pizza",
+                                                      "unit": "gram",
+                                                      Symbol(mobx administration): [Circular],
+                                                    },
+                                                    "values": Map {
+                                                      "id" => 4,
+                                                      "name" => "Pizza",
+                                                      "unit" => "gram",
+                                                      "calories" => 200,
+                                                    },
+                                                  },
+                                                },
+                                                "quantity" => 1,
+                                              },
+                                            },
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <Bootstrap(Table)
+                                        className="food-item-list"
+                                        hover={true}
+                                        striped={true}
+                                      >
+                                        <Table
+                                          bsPrefix="table"
+                                          className="food-item-list"
+                                          hover={true}
+                                          striped={true}
+                                        >
+                                          <table
+                                            className="table food-item-list table-striped table-hover"
+                                          >
+                                            <thead>
+                                              <tr>
+                                                <th>
+                                                  Food
+                                                </th>
+                                                <th>
+                                                  Calories
+                                                </th>
+                                                <th>
+                                                  Quantity
+                                                </th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <wrappedComponent
+                                                food={
+                                                  Object {
+                                                    "calories": 160,
+                                                    "id": 5,
+                                                    "name": "Beer",
+                                                    "unit": "pint",
+                                                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                      "defaultEnhancer": [Function],
+                                                      "keysAtom": Atom$$1 {
+                                                        "diffValue": 0,
+                                                        "isBeingObserved": false,
+                                                        "isPendingUnobservation": false,
+                                                        "lastAccessedBy": 0,
+                                                        "lowestObserverState": 2,
+                                                        "name": "ObservableArray@3[..].food.keys",
+                                                        "observers": Set {},
+                                                      },
+                                                      "name": "ObservableArray@3[..].food",
+                                                      "pendingKeys": Map {
+                                                        "cheerio" => false,
+                                                        "$$typeof" => false,
+                                                        "nodeType" => false,
+                                                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                        "@@__IMMUTABLE_RECORD__@@" => false,
+                                                        "_isMockFunction" => false,
+                                                        "toJSON" => false,
+                                                      },
+                                                      "proxy": [Circular],
+                                                      "target": Object {
+                                                        "calories": 160,
+                                                        "id": 5,
+                                                        "name": "Beer",
+                                                        "unit": "pint",
+                                                        Symbol(mobx administration): [Circular],
+                                                      },
+                                                      "values": Map {
+                                                        "id" => 5,
+                                                        "name" => "Beer",
+                                                        "unit" => "pint",
+                                                        "calories" => 160,
+                                                      },
+                                                    },
+                                                  }
+                                                }
+                                                index={0}
+                                                key="0"
+                                                quantity={2}
+                                              >
+                                                <tr
+                                                  className="food-item"
+                                                >
+                                                  <td>
+                                                    Beer
+                                                  </td>
+                                                  <td>
+                                                    160
+                                                    /
+                                                    pint
+                                                  </td>
+                                                  <td>
+                                                    <span>
+                                                      2
+                                                       
+                                                      pint
+                                                      s
+                                                    </span>
+                                                  </td>
+                                                </tr>
+                                              </wrappedComponent>
+                                              <wrappedComponent
+                                                food={
+                                                  Object {
+                                                    "calories": 200,
+                                                    "id": 4,
+                                                    "name": "Pizza",
+                                                    "unit": "gram",
+                                                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                                      "defaultEnhancer": [Function],
+                                                      "keysAtom": Atom$$1 {
+                                                        "diffValue": 0,
+                                                        "isBeingObserved": false,
+                                                        "isPendingUnobservation": false,
+                                                        "lastAccessedBy": 0,
+                                                        "lowestObserverState": 2,
+                                                        "name": "ObservableArray@3[..].food.keys",
+                                                        "observers": Set {},
+                                                      },
+                                                      "name": "ObservableArray@3[..].food",
+                                                      "pendingKeys": Map {
+                                                        "cheerio" => false,
+                                                        "$$typeof" => false,
+                                                        "nodeType" => false,
+                                                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                                        "@@__IMMUTABLE_RECORD__@@" => false,
+                                                        "_isMockFunction" => false,
+                                                        "toJSON" => false,
+                                                      },
+                                                      "proxy": [Circular],
+                                                      "target": Object {
+                                                        "calories": 200,
+                                                        "id": 4,
+                                                        "name": "Pizza",
+                                                        "unit": "gram",
+                                                        Symbol(mobx administration): [Circular],
+                                                      },
+                                                      "values": Map {
+                                                        "id" => 4,
+                                                        "name" => "Pizza",
+                                                        "unit" => "gram",
+                                                        "calories" => 200,
+                                                      },
+                                                    },
+                                                  }
+                                                }
+                                                index={1}
+                                                key="1"
+                                                quantity={1}
+                                              >
+                                                <tr
+                                                  className="food-item"
+                                                >
+                                                  <td>
+                                                    Pizza
+                                                  </td>
+                                                  <td>
+                                                    200
+                                                    /
+                                                    gram
+                                                  </td>
+                                                  <td>
+                                                    <span>
+                                                      1
+                                                       
+                                                      gram
+                                                    </span>
+                                                  </td>
+                                                </tr>
+                                              </wrappedComponent>
+                                            </tbody>
+                                          </table>
+                                        </Table>
+                                      </Bootstrap(Table)>
+                                    </wrappedComponent>
+                                    <CardText>
+                                      <p
+                                        className="card-text"
+                                      />
+                                    </CardText>
+                                  </div>
+                                </CardBody>
+                              </div>
+                            </Card>
+                          </wrappedComponent>
+                        </li>
+                      </ul>
+                    </wrappedComponent>
+                    <ButtonToolbar
+                      role="toolbar"
+                    >
+                      <div
+                        className="btn-toolbar"
+                        role="toolbar"
+                      >
+                        <Button
+                          active={false}
+                          disabled={false}
+                          onClick={[Function]}
+                          type="button"
+                          variant="info"
+                        >
+                          <button
+                            className="btn btn-info"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            Add meal
+                          </button>
+                        </Button>
+                        <Button
+                          active={false}
+                          disabled={false}
+                          onClick={[Function]}
+                          type="button"
+                          variant="warning"
+                        >
+                          <button
+                            className="btn btn-warning"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            Close day
+                          </button>
+                        </Button>
+                      </div>
+                    </ButtonToolbar>
+                  </div>
+                </CardBody>
+                <MealModal
+                  mealTypeList={
+                    Array [
+                      "lunch",
+                      "snack",
+                      "dinner",
+                    ]
+                  }
+                  onHide={[Function]}
+                  onSave={[Function]}
+                  show={false}
+                >
+                  <Bootstrap(Modal)
+                    className="add-meal-modal"
+                    onHide={[Function]}
+                    show={false}
+                  >
+                    <Modal
+                      animation={true}
+                      autoFocus={true}
+                      backdrop={true}
+                      bsPrefix="modal"
+                      className="add-meal-modal"
+                      dialogAs={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "displayName": "ModalDialog",
+                          "render": [Function],
+                        }
+                      }
+                      enforceFocus={true}
+                      keyboard={true}
+                      manager={
+                        BootstrapModalManager {
+                          "adjustAndStore": [Function],
+                          "containers": Array [],
+                          "data": Array [],
+                          "handleContainerOverflow": true,
+                          "hideSiblingNodes": true,
+                          "modals": Array [],
+                          "restore": [Function],
+                          "scrollbarSize": 0,
+                        }
+                      }
+                      onHide={[Function]}
+                      restoreFocus={true}
+                      show={false}
+                    >
+                      <Modal
+                        autoFocus={true}
+                        backdrop={true}
+                        backdropTransition={[Function]}
+                        className="add-meal-modal modal"
+                        containerClassName="modal-open"
+                        enforceFocus={true}
+                        keyboard={true}
+                        manager={
+                          BootstrapModalManager {
+                            "adjustAndStore": [Function],
+                            "containers": Array [],
+                            "data": Array [],
+                            "handleContainerOverflow": true,
+                            "hideSiblingNodes": true,
+                            "modals": Array [],
+                            "restore": [Function],
+                            "scrollbarSize": 0,
+                          }
+                        }
+                        onClick={[Function]}
+                        onEnter={[Function]}
+                        onEntering={[Function]}
+                        onExited={[Function]}
+                        onHide={[Function]}
+                        onMouseUp={[Function]}
+                        renderBackdrop={[Function]}
+                        restoreFocus={true}
+                        role="dialog"
+                        show={false}
+                        style={Object {}}
+                        transition={[Function]}
+                      />
+                    </Modal>
+                  </Bootstrap(Modal)>
+                </MealModal>
+              </div>
+            </Card>
+          </wrappedComponent>
+        </li>
+      </ul>
+    </wrappedComponent>
+  </div>
+</FoodView>
+`;

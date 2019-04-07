@@ -57,4 +57,6 @@ const FoodItemComponent: React.FunctionComponent<Props> = observer(
   }
 );
 
+FoodItemComponent.displayName = 'FoodItemComponent';
+
 export default FoodItemComponent;

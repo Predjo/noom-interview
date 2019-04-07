@@ -35,4 +35,6 @@ const MealComponent: React.FunctionComponent<Props> = observer(
   }
 );
 
+MealComponent.displayName = 'MealComponent';
+
 export default MealComponent;
