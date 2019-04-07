@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import AppStore from '../stores/AppStore';
 
@@ -11,10 +11,6 @@ export interface Props {
 const FoodView: React.FunctionComponent<Props> = (props: Props) => {
   const { appStore } = props;
   const { dayList, closeActiveDay, addMeal } = appStore;
-
-  useEffect(() => {
-    appStore.fetchData();
-  });
 
   return (
     <div>

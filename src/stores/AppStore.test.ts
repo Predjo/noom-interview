@@ -1,4 +1,5 @@
 import AppStore from './AppStore';
+import { dataToJSON, JSONtoData } from '../utils/StorageUtils';
 
 import Meal from '../models/Meal';
 import MealType from '../models/MealType';
@@ -11,7 +12,6 @@ describe('AppStore', () => {
 
   it('creates the store', () => {
     store = new AppStore();
-    store.fetchData();
     expect(store.dayList.length).toBe(1);
   });
 
@@ -60,11 +60,11 @@ describe('AppStore', () => {
   });
 
   it('can export data as JSON and convert it back', () => {
-    const json = store.dataToJSON();
+    const json = dataToJSON(store);
 
     expect(typeof json).toBe('string');
 
-    const storeData = store.JSONtoData(json);
-    expect(storeData && storeData.dayList.length).toBe(2);
+    const newStore = new AppStore(JSONtoData(json));
+    expect(newStore.dayList.length).toBe(2);
   });
 });
