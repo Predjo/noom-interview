@@ -25,16 +25,18 @@ export interface Props {
 const MealModal: React.FunctionComponent<Props> = (props: Props) => {
   const { show, onHide, mealTypeList, onSave } = props;
 
-  const [selectedMealType, onSelectMealType] = useState(mealTypeList[0]);
+  const [selectedMealType, onSelectMealType] = useState<MealType>();
   const [foodItemList, onSetFoodItemList] = useState<IFoodItem[]>([]);
+  const activeMealType = selectedMealType || mealTypeList[0];
 
   function close() {
-    onSetFoodItemList([]);
     onHide();
+    onSelectMealType(undefined);
+    onSetFoodItemList([]);
   }
 
   function save() {
-    onSave(new Meal(selectedMealType, foodItemList));
+    onSave(new Meal(activeMealType, foodItemList));
     close();
   }
 
@@ -73,7 +75,7 @@ const MealModal: React.FunctionComponent<Props> = (props: Props) => {
         <div className="modal-controls">
           <MealTypeSelector
             mealTypeList={mealTypeList}
-            selected={selectedMealType}
+            selected={activeMealType}
             onSelect={onSelectMealType}
           />
 
