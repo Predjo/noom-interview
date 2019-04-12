@@ -1,0 +1,5 @@
+.meal-card .h5 i {
+  color: var(--info);
+  font-size: 1.3em;
+  margin-right: 0.1em;
+}

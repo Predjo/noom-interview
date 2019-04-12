@@ -1,3 +1,4 @@
+import cx from 'classnames';
 import React from 'react';
 import { observer } from 'mobx-react-lite';
 import capitalize from 'lodash/capitalize';
@@ -6,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import FoodItemList from './FoodItemList';
 
 import Meal from '../models/Meal';
+import MealType from '../models/MealType';
 
 import './Meal.css';
 
@@ -21,7 +23,15 @@ const MealComponent: React.FunctionComponent<Props> = observer(
     return (
       <Card className="meal-card">
         <Card.Body>
-          <Card.Title>{capitalize(type)}</Card.Title>
+          <Card.Title>
+            <i
+              className={cx('fas', {
+                'fa-utensils': meal.type !== MealType.snack,
+                'fa-cookie-bite': meal.type === MealType.snack
+              })}
+            />{' '}
+            {capitalize(type)}
+          </Card.Title>
           <Card.Subtitle>
             {foodList.length} food items {calories} calories
           </Card.Subtitle>
