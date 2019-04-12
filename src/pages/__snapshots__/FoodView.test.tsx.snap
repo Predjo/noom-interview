@@ -2911,6 +2911,10 @@ exports[`FoodView should render correctly 1`] = `
                                         <div
                                           className="card-title h5"
                                         >
+                                          <i
+                                            className="fas fa-utensils"
+                                          />
+                                           
                                           Lunch
                                         </div>
                                       </ForwardRef>
